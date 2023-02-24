@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Crimson+Text&family=Dancing+Script&family=Press+Start+2P&family=Tilt+Prism&display=swap');
+
+body {
+    background-color: #ebdfcd;
+    font-family: 'Abril Fatface', serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+    border-radius: 6px;
+    padding: 8px;
+    margin: 0px 150px;
+    box-shadow: 4px 4px 10px #8e7c61;
+    font-size: 50px;
+}
+
+div {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 8px 20px 5px #8e7c61;
+}
+
+h2 {
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    background-color: #2a5b33;
+    color: white;
+    border-radius: 15px;
+}
+
+button {
+    border-radius: 50%;
+    height: 80px;
+    background-color: #76da6c;
+    box-shadow: 5px 6px 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #a4ff9b;
+}
+
+button:active {
+    margin-top: 5px;
+    background-color: #ea0644;
+    color: white;
+}
+
+.colors {
+    display: flex;
+    display: inline-flex;
+}
+
+.color-box {
+    padding: 10px;
+    margin: 50px;
+    margin-right: 100px;
+    height: 400px;
+    width: 400px;
+}
+
+.color-text {
+    padding: 40px;
+    height: 200px;
+    margin: 50px;
+    text-align: center;
+}
+
+.colors p {
+    display: inline-block;
+}
+
+#color1 {
+    background-color: #8f5805;
+    height: 100px;
+    width: 100px;
+    text-align:center;
+    margin: 25px;
+}
+
+#color2 {
+   background-color: #b98740;
+   height: 100px;
+   width: 100px;
+   text-align:center;
+   margin: 20px;
+}
+
+#color3 {
+    background-color: #e0b16a;
+    height: 100px;
+    width: 100px;
+    text-align:center;
+    margin: 25px;
+}
+
+#color4 {
+    background-color: #f1d2a3;
+    height: 100px;
+    width: 100px;
+    text-align:center;
+    margin: 20px;
+}
+
+.fonts {
+    display: flex;
+    display: inline-flex;
+}
+
+.font-text {
+    padding: 40px;
+    height: 200px;
+    margin: 50px;
+    text-align: center;
+}
+
+.font-ex {
+    padding: 10px;
+    margin: 50px 0px;
+    margin-right: 100px;
+    height: 400px;
+    width: 400px;
+}
+
+#font1 {
+    font-family: 'Dancing Script', serif;
+    padding: 30px 0px;
+}
+
+#font2 {
+    font-family: 'Tilt Prism', serif;
+    padding: 30px 0px;
+}
+
+#font3 {
+    font-family: 'Press Start 2P', serif;
+    padding: 30px 0px;
+}
+
+.text-style {
+    font-family: serif;
+    padding: 10px;
+    position: relative;
+}
+
+.style {
+    display: flex;
+    display: inline-flex;
+    margin: 0px 30px;
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 15px;
+    border: 1px solid black;
+    box-shadow: 3px 5px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+img:active {
+    margin-top: 5px;
+}
